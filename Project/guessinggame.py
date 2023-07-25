@@ -20,7 +20,7 @@ def pick():
 
             if guess <= 200 and guess >= 1:
                     if guess < number:
-                        print("That's is too low")
+                        print("That's too low")
                     if guess > number:
                         print("That's too high")
                     if guess != number:
